@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "E:\\asworkspace\\XPRPCDemo\\app\\src\\main\\jni\\Android.mk",
+    "E:\\asworkspace\\XPRPCDemo\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "E:\\androidstudiosdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\asworkspace\\XPRPCDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\asworkspace\\XPRPCDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dE:/asworkspace/XPRPCDemo/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\asworkspace\\XPRPCDemo\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "cutills-debug-x86": {
+      "artifactName": "cutills",
+      "buildCommand": "E:\\androidstudiosdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\asworkspace\\XPRPCDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\asworkspace\\XPRPCDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dE:/asworkspace/XPRPCDemo/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\asworkspace\\XPRPCDemo\\app\\build\\intermediates\\ndkBuild\\debug\\lib E:/asworkspace/XPRPCDemo/app/build/intermediates/ndkBuild/debug/obj/local/x86/libcutills.so",
+      "abi": "x86",
+      "output": "E:\\asworkspace\\XPRPCDemo\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libcutills.so"
+    }
+  }
+}

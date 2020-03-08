@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dip"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="URL:" />
+
+        <EditText
+            android:id="@+id/editTextUrl"
+            android:layout_width="300dip"
+            android:text="https://h5.m.taobao.com"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dip"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="代理IP:" />
+
+        <EditText
+            android:id="@+id/editTextProxyIP"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dip"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="代理PORT:" />
+
+        <EditText
+            android:id="@+id/editTextProxyPort"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
